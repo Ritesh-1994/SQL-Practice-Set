@@ -1,0 +1,58 @@
+create table AMRI_Hospital 
+(
+ID number(5),
+Name Varchar(20),
+Salary Number(10),
+Desingnation varchar(15)
+);
+insert into AMRI_Hospital values(5001,'Sakti swarup',10000,'wardboy');
+insert into AMRI_Hospital values(5002,'Ajit gupta',13000,'wardboy');
+insert into AMRI_Hospital values(5003,'Sankar swain',12500,'wardboy');
+insert into AMRI_Hospital values(5004,'Sakti sharma',13400,'wardboy');
+insert into AMRI_Hospital values(5005,'Sakti swain',12700,'wardboy');
+insert into AMRI_Hospital values(5006,'Sekhar Bhatia',11100,'wardboy');
+insert into AMRI_Hospital values(5007,'Birupa Thakkar',11000,'wardboy');
+insert into AMRI_Hospital values(5008,'Boudhik Mishra',10080,'wardboy');
+insert into AMRI_Hospital values(5009,'Sujal Sarkar',10500,'wardboy');
+insert into AMRI_Hospital values(5010,'Bikash Bagchi',10900,'wardboy');
+insert into AMRI_Hospital values(5011,'Sakti Munda',30000,'Nurse');
+insert into AMRI_Hospital values(5012,'Rajesh gupta',53900,'Gynocologist');
+insert into AMRI_Hospital values(5013,'Murali Mishra',62500,'Gynocologist');
+insert into AMRI_Hospital values(5014,'Nirmala sharma',53400,'Gynocologist');
+insert into AMRI_Hospital values(5015,'Sangeeta Panda',19700,'Nurse');
+insert into AMRI_Hospital values(5016,'Seetal Agrawala',82100,'House Surgeon');
+insert into AMRI_Hospital values(5017,'Bishnu Talpade',71090,'House Surgeon');
+insert into AMRI_Hospital values(5018,'Boudhik Das',10880,'Nurse');
+insert into AMRI_Hospital values(5019,'Sujeet Saksena',20500,'compunder');
+insert into AMRI_Hospital values(5020,'Jitenda Pradhan',40900,'Doctor');
+insert into AMRI_Hospital values(5021,'priyanshi Saha',20000,'Nurse');
+insert into AMRI_Hospital values(5022,'Rohini gupta',63900,'Opthamologist');
+insert into AMRI_Hospital values(5023,'Murali Jagdev',42500,'Opthamologist');
+insert into AMRI_Hospital values(5024,'Nirmala Tallhuri',53400,'Pediatic Doctor');
+insert into AMRI_Hospital values(5025,'S. Parveen',29700,'Nurse');
+insert into AMRI_Hospital values(5026,'Suhana Agrawala',72100,'House Surgeon');
+insert into AMRI_Hospital values(5027,'Bishnupriya Nayak',61090,'Opthamologist');
+insert into AMRI_Hospital values(5028,'Brajakishore Das',22680,'Nurse');
+insert into AMRI_Hospital values(5029,'Rudra prasad Parida',61500,'Gynocologist');
+insert into AMRI_Hospital values(5030,'Trilochan Pradhan',40900,'Gynocologist');
+insert into AMRI_Hospital values(5031,'Dr.Ritesh Ray',130000,'Superitendent');
+insert into AMRI_Hospital values(5032,'Risikesh gupta',33900,'Gynocologist');
+insert into AMRI_Hospital values(5033,'Madanmohan Mishra',52500,'Gyastrologist');
+insert into AMRI_Hospital values(5034,'Nirupama sharma',63800,'Gyastrologist');
+insert into AMRI_Hospital values(5035,'Mahima Panda',39900,'Nurse');
+insert into AMRI_Hospital values(5036,'Mehul Agrawala',92100,'Orthopedic');
+insert into AMRI_Hospital values(5037,'Bikuntha Naik',71090,'Orthopedic');
+insert into AMRI_Hospital values(5038,'Bikash Das',10880,'Orthopedic');
+insert into AMRI_Hospital values(5039,'S.Patra',28500,'compunder');
+insert into AMRI_Hospital values(5040,'K.Mohanta',50900,'Dentist');
+insert into AMRI_Hospital values(5041,'Ishaa Saha',28000,'Dentist');
+insert into AMRI_Hospital values(5042,'Rohini Yadav',63900,'Pharmasist');
+insert into AMRI_Hospital values(5043,'Rohini Jagdev',42500,'Pharmasist');
+insert into AMRI_Hospital values(5044,'Lavanya Tallhuri',53400,'Pharmasist');
+insert into AMRI_Hospital values(5045,'Y.P.Preetam ',29700,'Security Guard');
+insert into AMRI_Hospital values(5046,'Suhana Bhatia',272000,'M.Director');
+insert into AMRI_Hospital values(5047,'Ranjan Biswal',29700,'Security Guard');
+insert into AMRI_Hospital values(5048,'Bhikaribala Das',29700,'Security Guard');
+insert into AMRI_Hospital values(5049,'Aswini Parida',29700,'Security Guard');
+insert into AMRI_Hospital values(5050,'Ashis Pradhan',29700,'Security Guard');
+
