@@ -56,3 +56,160 @@ insert into AMRI_Hospital values(5048,'Bhikaribala Das',29700,'Security Guard');
 insert into AMRI_Hospital values(5049,'Aswini Parida',29700,'Security Guard');
 insert into AMRI_Hospital values(5050,'Ashis Pradhan',29700,'Security Guard');
 
+**************************
+
+>> WAQ to Display all Table details
+
+Ans- Select * from AMRI_Hospital;
+
+>> WAQ for delete a complete table
+
+Ans- Drop table College;
+
+>> WAQ rename table name as AMRI_Internationl_Hospital (********** v.imp.)
+       
+Ans- rename AMRI_Hospital to AMRI_Internationl_Hospital;
+
+>> WAQ to save dml command in SQL ?
+
+Ans- Commit;
+
+>> WAQ to Delete Nurse details ?
+ 
+Ans- delete from AMRI_Internationl_Hospital
+     where Desingnation = 'Nurse';
+
+>> WAQ to get sum salary from table 
+
+Ans- select Sum(salary) from AMRI_Internationl_Hospital;
+
+>> WAQ to get sum salary of wardboy 
+
+Ans- select Sum(Salary) from AMRI_Internationl_Hospital where Desingnation='wardboy';
+
+>> WAQ to get sum salary of Gynocologist 
+
+Ans- select Sum(Salary) from AMRI_Internationl_Hospital where Desingnation='Gynocologist';
+
+>> WAQ to get average salary 
+
+Ans- select avg(Salary) from AMRI_Internationl_Hospital;
+
+>> WAQ to get sum salary of Orthopedic
+
+Ans- select Sum(salary) as OrthopedicSalary from AMRI_Internationl_Hospital;
+
+>> Recover the deleted department details from AMRI_Internationl_Hospital
+
+Ans- Rollback;
+
+>> WAQ update salary of M.Director 
+
+Ans- update AMRI_Internationl_Hospital
+     set salary=372000
+     where id =5046;
+
+>> WAQ update salary of Superitendent 
+
+Ans- update AMRI_Internationl_Hospital
+     set salary=290900
+     where id =5031;
+
+>> WAQ Display name and Desingnation
+
+Ans- select name, Desingnation from AMRI_Internationl_Hospital;
+
+>> WAQ Add one more coloumn of Gender in table AMRI_Internationl_Hospital
+
+Ans- alter table AMRI_Internationl_Hospital
+     add Gender varchar(10);
+ 
+>> WAQ to get the count of employees Desingnation wise .
+
+Ans- select count(*),Desingnation from AMRI_Internationl_Hospital
+     group by Desingnation; 
+
+>> WAQ to get the count of employee Desingnation wise and in ascending order of the count ?
+
+Ans- select count(*),Desingnation from AMRI_Internationl_Hospital
+     group by Desingnation
+     order by count(*)asc;
+
+>> WAQ Modify column name size
+
+Ans- alter table AMRI_Internationl_Hospital
+     modify name varchar(35);
+
+>> WAQ to get the list of Pharmasist whose salary is greter than 50000.
+
+Ans- select * from AMRI_Internationl_Hospital
+     where Desingnation='Pharmasist' and Salary>50000;
+
+>> WAQ to get the list of wardboy whose salary is lesss than 13000
+
+Ans- select * from AMRI_Internationl_Hospital
+     where Desingnation='wardboy' or Salary<10000;
+
+>> WAQ to get details of those EMPLOYEE whose salary is between 30000 to 80000
+
+Ans- select * from AMRI_Internationl_Hospital
+     where salary between 30000 and 80000;
+
+>> WAQ to get details where Desingnation is not null
+
+Ans- select * from AMRI_Internationl_Hospital
+     where Desingnation IS Not Null;
+
+>> WAQ to get details where name is null
+   
+Ans- select * from AMRI_Internationl_Hospital
+     where name IS Null;
+
+>> WAQ to get name whose name start with R
+
+Ans- select * from AMRI_Internationl_Hospital
+     where name like 'R%';
+
+>> WAQ to get name whose name start with S
+
+Ans- select * from AMRI_Internationl_Hospital
+     where name like 'S%';
+
+>> WAQ to get name whose name start with P
+
+Ans- select * from AMRI_Internationl_Hospital
+     where name like 'P%';
+
+>> WAQ to get max salary from table of AMRI_Internationl_Hospital
+
+Ans- select Max(Salary)from AMRI_Internationl_Hospital;
+
+>> WAQ to get min salary from table of AMRI_Internationl_Hospital
+
+Ans- select min(Salary)from AMRI_Internationl_Hospital;
+
+>> WAQ to get max salary of Pharmasist 
+
+Ans- select Max(Salary)from AMRI_Internationl_Hospital where Desingnation='Pharmasist';
+
+>> WAQ to get min salary of Pharmasist 
+
+Ans- select Min(Salary)from AMRI_Internationl_Hospital where Desingnation='Pharmasist';
+
+>> WAQ to get min salary of Gynocologist
+
+Ans- select Min(Salary) from AMRI_Internationl_Hospital
+     where Desingnation='Gynocologist';
+
+>> WAQ to get name of MAX salary from table AMRI_Internationl_Hospital
+
+Ans- select name,salary from AMRI_Internationl_Hospital where salary
+    =(select MAX(salary)from AMRI_Internationl_Hospital);
+
+>> WAQ to get min salary for Orthopedic by using "having & group by" querry
+
+Ans- select min(Salary) from AMRI_Internationl_Hospital
+     group by Desingnation
+     having Desingnation='Orthopedic';
+
+
